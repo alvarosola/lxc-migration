@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #Primera parte
-#Variable para indicar número minimo MB libres
+#Variable para indicar número máximo MB usados
 MAX=450
 bucle='start'
 
@@ -41,7 +41,7 @@ while [ $bucle != 'stop' ]; do
 done
 #Segunda parte
 echo Cuando quieras puedes estresar la maquina contenedor2
-#Variable para indicar número minimo MB libres
+#Variable para indicar número máximo MB usados
 MAX2=900
 bucle2='start'
 #Recogemos la memoria RAM con el comando free
